@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delon.user.fahrenheitcelsiusapplication.FormulaFragment"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="25dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/relativeLayout">
+
+            <TextView
+                android:text="F=9/5C+32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textSize="60sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp" />
+
+            <TextView
+                android:text="C=5/9(F-32)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:textSize="60sp"
+                android:layout_below="@+id/textView2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp" />
+
+            <TextView
+                android:text="F=2C+30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView37"
+                android:textSize="60sp"
+                android:layout_below="@+id/textView36"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp" />
+
+            <TextView
+                android:text="C=(F-30)/2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView38"
+                android:textSize="60sp"
+                android:layout_below="@+id/textView37"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp" />
+
+            <TextView
+                android:text="↓simple↓"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView36"
+                android:textSize="36sp"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/textView"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

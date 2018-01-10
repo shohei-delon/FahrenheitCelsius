@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "891403653472",
+    "firebase_url": "https://admob-app-id-8814264462.firebaseio.com",
+    "project_id": "admob-app-id-8814264462",
+    "storage_bucket": "admob-app-id-8814264462.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891403653472:android:5f787cbf2e454908",
+        "android_client_info": {
+          "package_name": "com.delon.user.fahrenheitcelsiusapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891403653472-mtvo3qms36dlksug1k25oemmanf460nk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzb8CUv4HDlthW4arwYowsYKLU8y-yiUk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
